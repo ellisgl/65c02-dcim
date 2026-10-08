@@ -1,0 +1,33 @@
+# Synthesis / place-and-route outputs
+syn/*.json
+syn/*.log
+syn/*.fs
+
+# ROM images (demo.hex and font.hex come from gen_demo.py / gen_font.py)
+syn/*.hex
+
+# Local notes
+memory/
+
+# Simulation outputs
+obj_dir/
+obj_*/
+*.vcd
+*.fst
+*.vvp
+
+# Converted Dormann test image (generated from the .bin, see README)
+sim/func.hex
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors / tools
+.idea/
+.vscode/
+cmake-build-*/
+.claude/
+*.swp
+*~
+.DS_Store
